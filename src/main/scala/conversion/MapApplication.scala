@@ -5,7 +5,7 @@ import ArsUtils._
 object MapApplication {
 
   def main(args: Array[String]): Unit = {
-    // initialize map
+    // initialize maphttp://www.tableau.com/products/desktop/download
     val map = collection.mutable.Map[String, Int]().withDefaultValue(0)
     val filename = "/home/sliu203/Scala/test2.txt"
 
