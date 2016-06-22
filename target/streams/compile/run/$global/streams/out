@@ -1,0 +1,23 @@
+[0m[[0minfo[0m] [0mRunning conversion.MapApplication [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/Scala/map/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.3.4.jar[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.3.4.jar[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.3.4.jar[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.3.4.jar[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.6.jar[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.3.2.jar[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.3.2.jar[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.3.2.jar[0m
+[0m[[0mdebug[0m] [0m	/home/sliu203/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.1.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[Keep-Alive-Timer,8,system][0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m

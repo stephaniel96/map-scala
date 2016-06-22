@@ -1,0 +1,393 @@
+[0m[[0mdebug[0m] [0mGenerating LinkingUnit for JSEnv RhinoJSEnv[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 26803 us[0m
+[0m[[31merror[0m] [0mReferring to non-existent class play.api.libs.json.Reads$[0m
+[0m[[31merror[0m] [0m  called from conversion.ArsUtils$getJson.arsToTag()scala.collection.immutable.List[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.ArsUtils$.getJson(java.lang.String)conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    conversion.ArsUtils$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent class play.api.libs.json.Json$[0m
+[0m[[31merror[0m] [0m  called from conversion.ArsUtils$getJson.arsToTag()scala.collection.immutable.List[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.ArsUtils$.getJson(java.lang.String)conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    conversion.ArsUtils$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent class play.api.libs.json.JsObject[0m
+[0m[[31merror[0m] [0m  called from conversion.ArsUtils$getJson.arsToTag()scala.collection.immutable.List[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.ArsUtils$.getJson(java.lang.String)conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    conversion.ArsUtils$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent method play.api.libs.json.Reads$.traversableReads(scala.collection.generic.CanBuildFrom,play.api.libs.json.Reads)play.api.libs.json.Reads[0m
+[0m[[31merror[0m] [0m  called from conversion.ArsUtils$getJson.arsToTag()scala.collection.immutable.List[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.ArsUtils$.getJson(java.lang.String)conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    conversion.ArsUtils$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent method play.api.libs.json.Reads$.JsObjectReads()play.api.libs.json.DefaultReads$JsObjectReads$[0m
+[0m[[31merror[0m] [0m  called from conversion.ArsUtils$getJson.arsToTag()scala.collection.immutable.List[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.ArsUtils$.getJson(java.lang.String)conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    conversion.ArsUtils$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent method play.api.libs.json.Reads$.StringReads()play.api.libs.json.DefaultReads$StringReads$[0m
+[0m[[31merror[0m] [0m  called from conversion.ArsUtils$getJson.arsToTag()scala.collection.immutable.List[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.ArsUtils$.getJson(java.lang.String)conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    conversion.ArsUtils$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent method play.api.libs.json.Json$.parse(java.lang.String)play.api.libs.json.JsValue[0m
+[0m[[31merror[0m] [0m  called from conversion.ArsUtils$getJson.arsToTag()scala.collection.immutable.List[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.ArsUtils$.getJson(java.lang.String)conversion.ArsUtils$getJson[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    conversion.ArsUtils$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent class java.io.File[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.lang.String,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  scala.io.Source$[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent class java.io.FileInputStream[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.io.File,scala.Int,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.io.File,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.lang.String,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  scala.io.Source$[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent method java.io.File.getAbsolutePath()java.lang.String[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.io.File,scala.Int,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.io.File,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.lang.String,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  scala.io.Source$[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent method java.io.FileInputStream.close()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.io.File,scala.Int,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.io.File,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.lang.String,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  scala.io.Source$[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent method java.io.FileInputStream.<init>(java.io.File)[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.io.File,scala.Int,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.io.File,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.lang.String,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  scala.io.Source$[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent method java.io.File.<init>(java.lang.String)[0m
+[0m[[31merror[0m] [0m  called from scala.io.Source$.fromFile(java.lang.String,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  scala.io.Source$[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent class java.io.PushbackReader[0m
+[0m[[31merror[0m] [0m  called from scala.io.BufferedSource.scala$io$BufferedSource$$decachedReader()java.io.BufferedReader[0m
+[0m[[31merror[0m] [0m  called from scala.io.BufferedSource$BufferedLineIterator.<init>(scala.io.BufferedSource)[0m
+[0m[[31merror[0m] [0m  called from scala.io.BufferedSource.getLines()scala.collection.Iterator[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    instantiated from scala.io.Source$.createBufferedSource(java.io.InputStream,scala.Int,scala.Function0,scala.Function0,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    called from scala.io.Source$.fromFile(java.io.File,scala.Int,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    called from scala.io.Source$.fromFile(java.io.File,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    called from scala.io.Source$.fromFile(java.lang.String,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    scala.io.Source$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent method java.io.PushbackReader.unread(scala.Int)scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.io.BufferedSource.scala$io$BufferedSource$$decachedReader()java.io.BufferedReader[0m
+[0m[[31merror[0m] [0m  called from scala.io.BufferedSource$BufferedLineIterator.<init>(scala.io.BufferedSource)[0m
+[0m[[31merror[0m] [0m  called from scala.io.BufferedSource.getLines()scala.collection.Iterator[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    instantiated from scala.io.Source$.createBufferedSource(java.io.InputStream,scala.Int,scala.Function0,scala.Function0,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    called from scala.io.Source$.fromFile(java.io.File,scala.Int,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    called from scala.io.Source$.fromFile(java.io.File,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    called from scala.io.Source$.fromFile(java.lang.String,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    scala.io.Source$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent method java.io.PushbackReader.<init>(java.io.Reader)[0m
+[0m[[31merror[0m] [0m  called from scala.io.BufferedSource.scala$io$BufferedSource$$decachedReader()java.io.BufferedReader[0m
+[0m[[31merror[0m] [0m  called from scala.io.BufferedSource$BufferedLineIterator.<init>(scala.io.BufferedSource)[0m
+[0m[[31merror[0m] [0m  called from scala.io.BufferedSource.getLines()scala.collection.Iterator[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    instantiated from scala.io.Source$.createBufferedSource(java.io.InputStream,scala.Int,scala.Function0,scala.Function0,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    called from scala.io.Source$.fromFile(java.io.File,scala.Int,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    called from scala.io.Source$.fromFile(java.io.File,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    called from scala.io.Source$.fromFile(java.lang.String,scala.io.Codec)scala.io.BufferedSource[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    scala.io.Source$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent class java.net.URL[0m
+[0m[[31merror[0m] [0m  called from conversion.ArsUtils$tagConversion.toLocation()java.lang.String[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  conversion.ArsUtils$tagConversion[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.ArsUtils$.tagConversion(java.lang.String)conversion.ArsUtils$tagConversion[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    conversion.ArsUtils$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent class java.net.HttpURLConnection[0m
+[0m[[31merror[0m] [0m  called from conversion.ArsUtils$tagConversion.toLocation()java.lang.String[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  conversion.ArsUtils$tagConversion[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.ArsUtils$.tagConversion(java.lang.String)conversion.ArsUtils$tagConversion[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    conversion.ArsUtils$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent method java.net.URL.openConnection()java.net.URLConnection[0m
+[0m[[31merror[0m] [0m  called from conversion.ArsUtils$tagConversion.toLocation()java.lang.String[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  conversion.ArsUtils$tagConversion[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.ArsUtils$.tagConversion(java.lang.String)conversion.ArsUtils$tagConversion[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    conversion.ArsUtils$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mReferring to non-existent method play.api.libs.json.Reads$.StringReads()play.api.libs.json.DefaultReads$StringReads$[0m
+[0m[[31merror[0m] [0m  called from conversion.ArsUtils$tagConversion.toLocation()java.lang.String[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[31merror[0m] [0m  called from scala.scalajs.js.JSApp$class.$$js$exported$meth$main(scala.scalajs.js.JSApp)java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.$$js$exported$meth$main()java.lang.Object[0m
+[0m[[31merror[0m] [0m  called from conversion.MapApplication$.main[0m
+[0m[[31merror[0m] [0m  exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0minvolving instantiated classes:[0m
+[0m[[31merror[0m] [0m  conversion.ArsUtils$tagConversion[0m
+[0m[[0mdebug[0m] [0m    instantiated from conversion.ArsUtils$.tagConversion(java.lang.String)conversion.ArsUtils$tagConversion[0m
+[0m[[0mdebug[0m] [0m    called from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m      (already seen, not repeating call stack)[0m
+[0m[[0mdebug[0m] [0m  involving instantiated classes:[0m
+[0m[[0mdebug[0m] [0m    conversion.ArsUtils$[0m
+[0m[[0mdebug[0m] [0m      instantiated from conversion.MapApplication$.main()scala.Unit[0m
+[0m[[0mdebug[0m] [0m        (already seen, not repeating call stack)[0m
+[0m[[31merror[0m] [0m  conversion.MapApplication$[0m
+[0m[[0mdebug[0m] [0m    exported to JavaScript with @JSExport[0m
+[0m[[31merror[0m] [0mNot showing 10 more linking errors[0m
+java.lang.RuntimeException: There were linking errors
+	at scala.sys.package$.error(package.scala:27)
+	at org.scalajs.core.tools.linker.frontend.BaseLinker.linkInternal(BaseLinker.scala:133)
+	at org.scalajs.core.tools.linker.frontend.BaseLinker.linkInternal(BaseLinker.scala:86)
+	at org.scalajs.core.tools.linker.frontend.LinkerFrontend$$anonfun$4.apply(LinkerFrontend.scala:54)
+	at org.scalajs.core.tools.linker.frontend.LinkerFrontend$$anonfun$4.apply(LinkerFrontend.scala:54)
+	at org.scalajs.core.tools.logging.Logger$class.time(Logger.scala:28)
+	at org.scalajs.sbtplugin.Loggers$SbtLoggerWrapper.time(Loggers.scala:7)
+	at org.scalajs.core.tools.linker.frontend.LinkerFrontend.link(LinkerFrontend.scala:53)
+	at org.scalajs.core.tools.linker.Linker$$anonfun$linkUnit$1.apply(Linker.scala:43)
+	at org.scalajs.core.tools.linker.Linker$$anonfun$linkUnit$1.apply(Linker.scala:43)
+	at org.scalajs.core.tools.linker.Linker.guard(Linker.scala:65)
+	at org.scalajs.core.tools.linker.Linker.linkUnit(Linker.scala:43)
+	at org.scalajs.core.tools.linker.ClearableLinker$$anonfun$linkUnit$1.apply(ClearableLinker.scala:46)
+	at org.scalajs.core.tools.linker.ClearableLinker$$anonfun$linkUnit$1.apply(ClearableLinker.scala:46)
+	at org.scalajs.core.tools.linker.ClearableLinker.linkerOp(ClearableLinker.scala:62)
+	at org.scalajs.core.tools.linker.ClearableLinker.linkUnit(ClearableLinker.scala:46)
+	at org.scalajs.sbtplugin.ScalaJSPluginInternal$$anonfun$50$$anonfun$apply$32.apply(ScalaJSPluginInternal.scala:617)
+	at org.scalajs.sbtplugin.ScalaJSPluginInternal$$anonfun$50$$anonfun$apply$32.apply(ScalaJSPluginInternal.scala:614)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[0m[[31merror[0m] [0m(compile:[31mloadedJSEnv[0m) There were linking errors[0m
