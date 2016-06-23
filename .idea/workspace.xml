@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="582b2f73-2349-44d5-a7c9-3d4614dec2e0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion$sources_2.11-default.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/ArsUtils$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/ArsUtils$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/ArsUtils$getArs.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/ArsUtils$getArs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/ArsUtils$getJson.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/ArsUtils$getJson.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/ArsUtils$tagConversion.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/ArsUtils$tagConversion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/ArsUtils.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/ArsUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/MapApplication$$anonfun$main$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/MapApplication$$anonfun$main$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/MapApplication$$anonfun$main$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/MapApplication$$anonfun$main$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/MapApplication$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/conversion/MapApplication$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/map.iml" afterPath="$PROJECT_DIR$/.idea/modules/map.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/conversion/ArsUtils.scala" afterPath="$PROJECT_DIR$/src/main/scala/conversion/ArsUtils.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/conversion/MapApplication.scala" afterPath="$PROJECT_DIR$/src/main/scala/conversion/MapApplication.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/conversion/conversion$sbt_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/conversion/conversion$sbt_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/conversion/conversion$sbt_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/conversion/conversion$sbt_2.11/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/conversion/conversion$sources_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/conversion/conversion$sources_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/conversion/conversion$sources_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/conversion/conversion$sources_2.11/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/conversion/conversion_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/conversion/conversion_2.11/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/conversion/conversion_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/conversion/conversion_2.11/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion$sbt_2.11-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion$sbt_2.11-default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/conversion-conversion_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
-    </list>
+    <list default="true" id="582b2f73-2349-44d5-a7c9-3d4614dec2e0" name="Default" comment="" />
     <ignored path="map.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
