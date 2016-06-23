@@ -1,7 +1,10 @@
 package conversion
+
 import java.net.{HttpURLConnection, URL}
 import play.api.libs.json._
 import scala.io.Source._
+
+
 object ArsUtils {
 
   implicit class getArs(init: String) {
@@ -16,7 +19,7 @@ object ArsUtils {
 
     val menuLocInArs = 6
     def arsToTag(): List[String] = {
-      val obj: JsObject = Json.parse(jsonString).as[JsObject]
+      val obj = Json.parse(jsonString).as[JsObject]
 
       // to do: handle case where "menu" blob is not in ars i.e. index out of bound
       // to do: double check that 6 is the way to do it i.e. other blobs not removed
@@ -45,18 +48,25 @@ object ArsUtils {
       val jsonString = fromInputStream(inputStream).mkString
       if (inputStream != null) inputStream.close()
 
-      val obj: JsObject = Json.parse(jsonString).as[JsObject]
-      val geoLocList = (obj \ "entries" ).as[List[JsValue]]
+      val jsonObj = Json.parse(jsonString).as[JsObject]
+      val geoLocList = (jsonObj \ "entries").as[List[JsValue]]
       if (geoLocList.nonEmpty)
         geoLocList(0).\("geoLocationIds").as[List[String]]
       else List()
 
     }
 
+    case class Location(city: String, lat: Double, long: Double)
+    implicit val locationWrites = new Writes[Location] {
+      def writes(location:Location) = Json.obj(
+        "city" -> location.city,
+        "lat" -> location.lat,
+        "lng" -> location.long
+      )
+    }
     @throws(classOf[java.io.IOException])
     @throws(classOf[java.net.SocketTimeoutException])
-    def toLocation: String =
-    {
+    def toLocation: JsValue = {
       val connection = new URL(locationURL + availTag).openConnection.asInstanceOf[HttpURLConnection]
       connection.setConnectTimeout(timeout)
       connection.setReadTimeout(timeout)
@@ -64,9 +74,13 @@ object ArsUtils {
       val inputStream = connection.getInputStream
       val jsonString = fromInputStream(inputStream).mkString
       if (inputStream != null) inputStream.close()
-      val json: JsValue = Json.parse(jsonString)
-      val zipCode = (json \ "entries")(0).\("zipcode").as[String]
-      zipCode
+      val jsonObj = Json.parse(jsonString)
+      val path = (jsonObj \ "entries") (0)
+
+      val loc = Location(path.\("city").as[String], path.\("latitude").as[Double],
+        path.\("longitude").as[Double])
+
+      Json.toJson(loc)
     }
   }
 

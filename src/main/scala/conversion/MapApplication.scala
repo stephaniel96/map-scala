@@ -20,9 +20,11 @@ object MapApplication {
       .map(_.takeRight(19))
       .flatMap(_.toLinear)
       .map(_.toLocation)
-      .foreach(key => map.update(key, map(key) + 1))
+      .foreach(x => println(x + ","))
 
-      println(map)
+      //.foreach(key => map.update(key, map(key) + 1))
+
+      //println(map)
   }
 
 
