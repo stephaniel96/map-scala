@@ -4,5 +4,8 @@ version := "1.0"
 
 scalaVersion := "2.11.8"
 
-//libraryDependencies += "io.spray" %%  "spray-json" % "1.3.2"
 libraryDependencies += "com.typesafe.play" %% "play-json" % "2.3.4"
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-http-core" % "2.4.4",
+  "com.typesafe.akka" %% "akka-http-experimental" % "2.4.4"
+)

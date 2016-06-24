@@ -1,1 +1,5 @@
 run
+run | markers.json
+run > markers.json
+run #> markers.json
+run

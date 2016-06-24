@@ -4,7 +4,6 @@ import java.net.{HttpURLConnection, URL}
 import play.api.libs.json._
 import scala.io.Source._
 
-
 object ArsUtils {
 
   implicit class getArs(init: String) {

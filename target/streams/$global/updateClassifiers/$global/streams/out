@@ -8,7 +8,7 @@
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e7cd957
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6317f57f
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -17,7 +17,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a7176c1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@353b2394
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.11;2.3.4
 [debug] 	found com.typesafe.play#play-json_2.11;2.3.4 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.3.4 [compile->runtime]
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.3.4 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20c3786b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f9766af
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.3.4
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.3.4 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.3.4 [compile->runtime]
@@ -33,23 +33,15 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.3.4 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18e023f4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a699221
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
-[info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4691ae5e
-[debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
-[debug] 	found com.typesafe#config;1.2.1 in sbt-chain
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72375b0f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1358bc42
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.11;2.3.4
 [debug] 	found com.typesafe.play#play-functional_2.11;2.3.4 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->runtime]
@@ -57,7 +49,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1011458f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2224cfd9
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.11;2.3.4
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.3.4 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.3.4 [compile->runtime]
@@ -65,7 +57,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.3.4 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->joda-time#joda-time;2.3 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ad5ae47
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@732129d4
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.3
 [debug] 	found joda-time#joda-time;2.3 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->joda-time#joda-time;2.3 [compile->runtime]
@@ -73,7 +65,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->joda-time#joda-time;2.3 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.joda#joda-convert;1.6 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34402938
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61b9e3e
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.6
 [debug] 	found org.joda#joda-convert;1.6 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.joda#joda-convert;1.6 [compile->runtime]
@@ -81,7 +73,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.joda#joda-convert;1.6 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42825336
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@305343c8
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.3.2 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->runtime]
@@ -89,7 +81,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@602c28cf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@461719bd
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.3.2 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->runtime]
@@ -97,7 +89,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@765158fd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@132fbc94
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.3.2 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->runtime]
@@ -105,13 +97,101 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24ec5f86
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d7f91f9
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.1
 [debug] 	found org.scala-lang#scala-reflect;2.11.1 in sbt-chain
 [debug] 	[2.11.1] org.scala-lang#scala-reflect;2.11.1
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-http-core_2.11;2.4.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5dc76f01
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-core_2.11;2.4.4
+[debug] 	found com.typesafe.akka#akka-http-core_2.11;2.4.4 in sbt-chain
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-stream_2.11;2.4.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2552af9
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-stream_2.11;2.4.4
+[debug] 	found com.typesafe.akka#akka-stream_2.11;2.4.4 in sbt-chain
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@423ff53a
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.4
+[debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.4 in sbt-chain
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
+[info] Resolving com.typesafe#config;1.3.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e3ce722
+[debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
+[debug] 	found com.typesafe#config;1.3.0 in sbt-chain
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@562a5773
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0
+[debug] 	found org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 in sbt-chain
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->default(compile)]
+[info] Resolving com.typesafe#ssl-config-akka_2.11;0.2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32b29648
+[debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-akka_2.11;0.2.1
+[debug] 	found com.typesafe#ssl-config-akka_2.11;0.2.1 in sbt-chain
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->default(compile)]
+[info] Resolving com.typesafe#ssl-config-core_2.11;0.2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@528a0474
+[debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-core_2.11;0.2.1
+[debug] 	found com.typesafe#ssl-config-core_2.11;0.2.1 in sbt-chain
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cd5593c
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[info] Resolving org.reactivestreams#reactive-streams;1.0.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24dd669
+[debug] sbt-chain: module revision found in cache: org.reactivestreams#reactive-streams;1.0.0
+[debug] 	found org.reactivestreams#reactive-streams;1.0.0 in sbt-chain
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-parsing_2.11;2.4.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12c58b3c
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-parsing_2.11;2.4.4
+[debug] 	found com.typesafe.akka#akka-parsing_2.11;2.4.4 in sbt-chain
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-http-experimental_2.11;2.4.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@485a255c
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-experimental_2.11;2.4.4
+[debug] 	found com.typesafe.akka#akka-http-experimental_2.11;2.4.4 in sbt-chain
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [runtime]
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [compile]
@@ -131,10 +211,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->compile]
@@ -167,6 +243,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -183,10 +303,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime->compile]
@@ -219,6 +335,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [test]
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [runtime]
@@ -239,10 +399,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->compile]
@@ -275,6 +431,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -291,10 +491,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime->compile]
@@ -327,6 +523,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
@@ -343,10 +583,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [test->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [test->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [test->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [test->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [test->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [test->compile]
@@ -379,6 +615,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [test->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [test->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -402,10 +682,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->compile]
@@ -438,6 +714,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->master]
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [provided]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->default(compile)]
@@ -456,10 +776,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile-internal->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile-internal->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile-internal->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile-internal->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile-internal->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile-internal->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile-internal->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile-internal->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile-internal->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile-internal->compile]
@@ -492,6 +808,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile-internal->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile-internal->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [runtime-internal]
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [runtime]
@@ -512,10 +872,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->compile]
@@ -548,6 +904,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -564,10 +964,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime->compile]
@@ -600,6 +996,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->master]
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->runtime]
@@ -617,10 +1057,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime-internal->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime-internal->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime-internal->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime-internal->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime-internal->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime-internal->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime-internal->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime-internal->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime-internal->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime-internal->compile]
@@ -653,6 +1089,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime-internal->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime-internal->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [test-internal]
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [test]
@@ -674,10 +1154,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->compile]
@@ -710,6 +1186,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [compile->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -726,10 +1246,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [runtime->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [runtime->compile]
@@ -762,6 +1278,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [runtime->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [runtime->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
@@ -778,10 +1338,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [test->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [test->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [test->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [test->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [test->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [test->compile]
@@ -814,6 +1370,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [test->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [test->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [test->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [test->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [test->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [test->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [test->master]
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [provided]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->default(compile)]
@@ -832,10 +1432,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [test-internal->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [test-internal->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [test-internal->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->default(compile)]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [test-internal->default(compile)]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [test-internal->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [test-internal->compile]
@@ -868,6 +1464,50 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [test-internal->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [test-internal->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [test-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [test-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [test-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [test-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.4 [test-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [test-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [test-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [test-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.4 [test-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [test-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [test-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [test-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [test-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [test-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [test-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [test-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [test-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [test-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [test-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [test-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [test-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [test-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [test-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [test-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [test-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [test-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [test-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [test-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.4 [test-internal->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [test-internal->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [test-internal->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [test-internal->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.4 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -882,6 +1522,10 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->default(compile)]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile]
+[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default(compile)]}
@@ -907,14 +1551,6 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->runtime]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->master]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->default(compile)]
-[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {scala-tool=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
-[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile]
-[debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->jline#jline;2.12.1 [scala-tool->default(compile)]
 [info] Resolving jline#jline;2.12.1 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[default(compile)]}
@@ -933,8 +1569,6 @@
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-iteratees_2.11;2.3.4!play-iteratees_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.11;2.3.4!play-functional_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.11;2.3.4!play-functional_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-datacommons_2.11;2.3.4!play-datacommons_2.11.jar(src)
@@ -951,12 +1585,51 @@
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.3.2!jackson-databind.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.1!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.1!scala-reflect.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.11;2.4.4!akka-http-core_2.11.jar
+[debug] 		tried /home/sliu203/.ivy2/local/com.typesafe.akka/akka-http-core_2.11/2.4.4/srcs/akka-http-core_2.11-sources.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.4/akka-http-core_2.11-2.4.4-sources.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.4/akka-http-core_2.11-2.4.4-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.4/akka-http-core_2.11-2.4.4-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.4/akka-http-core_2.11-2.4.4-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.4/akka-http-core_2.11-2.4.4-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-core_2.11;2.4.4!akka-http-core_2.11.jar(src) (706ms)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.11;2.4.4!akka-stream_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.11;2.4.4!akka-stream_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.4!akka-actor_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.4!akka-actor_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-akka_2.11;0.2.1!ssl-config-akka_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-akka_2.11;0.2.1!ssl-config-akka_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.11;0.2.1!ssl-config-core_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.11;0.2.1!ssl-config-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar
+[debug] 		tried /home/sliu203/.ivy2/local/com.typesafe.akka/akka-parsing_2.11/2.4.4/srcs/akka-parsing_2.11-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.11;2.4.4!akka-parsing_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.4/akka-parsing_2.11-2.4.4-sources.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.4/akka-parsing_2.11-2.4.4-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.4/akka-parsing_2.11-2.4.4-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.4/akka-parsing_2.11-2.4.4-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.4/akka-parsing_2.11-2.4.4-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-parsing_2.11;2.4.4!akka-parsing_2.11.jar(src) (444ms)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-experimental_2.11;2.4.4!akka-http-experimental_2.11.jar
+[debug] 		tried /home/sliu203/.ivy2/local/com.typesafe.akka/akka-http-experimental_2.11/2.4.4/srcs/akka-http-experimental_2.11-sources.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.4/akka-http-experimental_2.11-2.4.4-sources.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.4/akka-http-experimental_2.11-2.4.4-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.4/akka-http-experimental_2.11-2.4.4-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.4/akka-http-experimental_2.11-2.4.4-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.4/akka-http-experimental_2.11-2.4.4-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-experimental_2.11;2.4.4!akka-http-experimental_2.11.jar(src) (515ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 164ms :: artifacts dl 14ms
+[debug] :: resolution report :: resolve 314ms :: artifacts dl 1701ms
 [debug] 	report for conversion#conversion$sources_2.11;1.0 compile produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sources_2.11-compile.xml
 [debug] 	report for conversion#conversion$sources_2.11;1.0 runtime produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sources_2.11-runtime.xml
 [debug] 	report for conversion#conversion$sources_2.11;1.0 test produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sources_2.11-test.xml
@@ -970,4 +1643,4 @@
 [debug] 	report for conversion#conversion$sources_2.11;1.0 docs produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sources_2.11-docs.xml
 [debug] 	report for conversion#conversion$sources_2.11;1.0 pom produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sources_2.11-pom.xml
 [debug] 	report for conversion#conversion$sources_2.11;1.0 scala-tool produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sources_2.11-scala-tool.xml
-[debug] 	resolve done (164ms resolve - 14ms download)
+[debug] 	resolve done (314ms resolve - 1701ms download)
