@@ -7,64 +7,64 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160624141426"/>
+		date="20160628102317"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-http-experimental_2.11">
-			<revision name="2.4.4" status="release" pubdate="20160414050520" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+			<revision name="2.4.7" status="release" pubdate="20160603094151" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="3332" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.4/akka-http-experimental_2.11-2.4.4.pom"/>
-				<caller organisation="conversion" name="conversion$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
+				<metadata-artifact status="no" details="" size="3168" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.7/akka-http-experimental_2.11-2.4.7.pom"/>
+				<caller organisation="conversion" name="conversion$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-http-experimental_2.11" type="jar" ext="jar" status="no" details="" size="2457295" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/jars/akka-http-experimental_2.11-2.4.4.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.4/akka-http-experimental_2.11-2.4.4.jar"/>
+					<artifact name="akka-http-experimental_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="164629" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.4.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.7/akka-http-experimental_2.11-2.4.7-sources.jar"/>
 					</artifact>
-					<artifact name="akka-http-experimental_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="160262" time="515" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/srcs/akka-http-experimental_2.11-2.4.4-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.4/akka-http-experimental_2.11-2.4.4-sources.jar"/>
+					<artifact name="akka-http-experimental_2.11" type="jar" ext="jar" status="no" details="" size="2582289" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/jars/akka-http-experimental_2.11-2.4.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.7/akka-http-experimental_2.11-2.4.7.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-http-core_2.11">
-			<revision name="2.4.4" status="release" pubdate="20160414050522" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+			<revision name="2.4.7" status="release" pubdate="20160603094140" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="3616" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.4/akka-http-core_2.11-2.4.4.pom"/>
-				<caller organisation="conversion" name="conversion$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
+				<metadata-artifact status="no" details="" size="3452" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.7/akka-http-core_2.11-2.4.7.pom"/>
+				<caller organisation="conversion" name="conversion$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-http-core_2.11" type="jar" ext="jar" status="no" details="" size="3354694" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/jars/akka-http-core_2.11-2.4.4.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.4/akka-http-core_2.11-2.4.4.jar"/>
+					<artifact name="akka-http-core_2.11" type="jar" ext="jar" status="no" details="" size="3370182" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/jars/akka-http-core_2.11-2.4.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.7/akka-http-core_2.11-2.4.7.jar"/>
 					</artifact>
-					<artifact name="akka-http-core_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="345479" time="706" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/srcs/akka-http-core_2.11-2.4.4-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.4/akka-http-core_2.11-2.4.4-sources.jar"/>
+					<artifact name="akka-http-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="348581" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/srcs/akka-http-core_2.11-2.4.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.7/akka-http-core_2.11-2.4.7-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-parsing_2.11">
-			<revision name="2.4.4" status="release" pubdate="20160414050526" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+			<revision name="2.4.7" status="release" pubdate="20160603093621" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="2686" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.4/akka-parsing_2.11-2.4.4.pom"/>
-				<caller organisation="conversion" name="conversion$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
+				<metadata-artifact status="no" details="" size="2686" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.7/akka-parsing_2.11-2.4.7.pom"/>
+				<caller organisation="conversion" name="conversion$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-parsing_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="62906" time="444" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/srcs/akka-parsing_2.11-2.4.4-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.4/akka-parsing_2.11-2.4.4-sources.jar"/>
+					<artifact name="akka-parsing_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="62968" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/srcs/akka-parsing_2.11-2.4.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.7/akka-parsing_2.11-2.4.7-sources.jar"/>
 					</artifact>
-					<artifact name="akka-parsing_2.11" type="jar" ext="jar" status="no" details="" size="977566" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/jars/akka-parsing_2.11-2.4.4.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.4/akka-parsing_2.11-2.4.4.jar"/>
+					<artifact name="akka-parsing_2.11" type="jar" ext="jar" status="no" details="" size="975937" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/jars/akka-parsing_2.11-2.4.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.7/akka-parsing_2.11-2.4.7.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-stream_2.11">
-			<revision name="2.4.4" status="release" pubdate="20160413015935" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+			<revision name="2.4.7" status="release" pubdate="20160603093751" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="3359" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.4/akka-stream_2.11-2.4.4.pom"/>
-				<caller organisation="conversion" name="conversion$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
+				<metadata-artifact status="no" details="" size="3233" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-stream_2.11/2.4.7/akka-stream_2.11-2.4.7.pom"/>
+				<caller organisation="conversion" name="conversion$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-stream_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="336211" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.4.4-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.4/akka-stream_2.11-2.4.4-sources.jar"/>
+					<artifact name="akka-stream_2.11" type="jar" ext="jar" status="no" details="" size="4143281" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-stream_2.11/2.4.7/akka-stream_2.11-2.4.7.jar"/>
 					</artifact>
-					<artifact name="akka-stream_2.11" type="jar" ext="jar" status="no" details="" size="4127214" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.4/akka-stream_2.11-2.4.4.jar"/>
+					<artifact name="akka-stream_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="341070" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.4.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-stream_2.11/2.4.7/akka-stream_2.11-2.4.7-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -130,16 +130,16 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
-			<revision name="2.4.4" status="release" pubdate="20160413015803" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+			<revision name="2.4.7" status="release" pubdate="20160603093611" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="2956" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.4/akka-actor_2.11-2.4.4.pom"/>
-				<caller organisation="conversion" name="conversion$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
+				<metadata-artifact status="no" details="" size="2830" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.7/akka-actor_2.11-2.4.7.pom"/>
+				<caller organisation="conversion" name="conversion$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="3230825" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.4/akka-actor_2.11-2.4.4.jar"/>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="3234641" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.7/akka-actor_2.11-2.4.7.jar"/>
 					</artifact>
-					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="386591" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.4.4-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.4/akka-actor_2.11-2.4.4-sources.jar"/>
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="389549" time="0" location="/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.4.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.7/akka-actor_2.11-2.4.7-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

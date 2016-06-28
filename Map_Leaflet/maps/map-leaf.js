@@ -22,32 +22,42 @@ var myIcon = L.icon({
   popupAnchor: [0, -14]
 });
 
-function addDynamicMarker(index) {
-  var popup = markers[index].city +
-  '<br/><b>Latitude:</b> ' + markers[index].lat +
-  '<br/><b>Longitude:</b> ' + markers[index].lng;
-  var m = L.marker([markers[index].lat, markers[index].lng], {icon: myIcon} )
-  .bindPopup( popup );2
+var markerClusters = L.markerClusterGroup();
+function addDynamicMarker(location) {
+  var popup = location.city +
+  '<br/><b>Latitude:</b> ' + location.lat +
+  '<br/><b>Longitude:</b> ' + location.lng;
+  var m = L.marker([location.lat, location.lng], {icon: myIcon} )
+  .bindPopup( popup );
   markerClusters.addLayer( m );
   // setTimeout(function() {
   //   markerClusters.removeLayer(m);
   // }, 1000);
 }
+map.addLayer( markerClusters );
 
-var connection = new WebSocket('ws://localhost:8080/ws-echo');
+var connection = new WebSocket('ws://localhost:8080/getInfo');
 
 connection.onopen = function () {
-  console.log("hallelujah"); // Works!
+  console.log("connection established"); // Works!
+  //connection.sendMessage();
 };
-// connection.onmessage = function(e) {
-//   var parse = JSON.parse(e.data);
-//   console.log(parse);
+
+// connection.sendMessage = function() {
+//   var message = {"test": "hello", "name": "stephanie"};
+//   connection.send(JSON.stringify(message));
 // };
 
+connection.onmessage = function(e) {
+  //var parse = JSON.parse(e.data);
+  console.log(e);
+  // addDynamicMarker(parse);
+};
 
-var markerClusters = L.markerClusterGroup();
-for ( var i = 0; i < markers.length; ++i ) {
-  addDynamicMarker(i);
-}
 
-map.addLayer( markerClusters );
+// var markerClusters = L.markerClusterGroup();
+// for ( var i = 0; i < markers.length; ++i ) {
+//   addDynamicMarker(i);
+// }
+
+// map.addLayer( markerClusters );
