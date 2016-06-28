@@ -6,30 +6,33 @@ import scala.io.Source._
 
 object ArsUtils {
 
+  // gets ars json
   implicit class getArs(init: String) {
-
     val pattern = "\\{\"resolveAvailabilityResponse.+\\}\\}".r
     def toArs: Option[String] = {
       pattern.findFirstIn(init)
     }
   }
 
-  implicit class getJson(jsonString: String) {
-
+  // get list of tags
+  implicit class getTag(jsonString: String) {
     val menuLocInArs = 6
     def arsToTag(): List[String] = {
-      val obj = Json.parse(jsonString).as[JsObject]
+      // if statement necessary to check in case getArs produced empty string
+      if (jsonString.isEmpty()) List()
+      else {
+        val obj = Json.parse(jsonString).as[JsObject]
 
-      // to do: handle case where "menu" blob is not in ars i.e. index out of bound
-      // to do: double check that 6 is the way to do it i.e. other blobs not removed
-      val availList = (obj \ "resolveAvailabilityResponse").\("availabilityGroups")(menuLocInArs).
-        \("availabilities").as[List[String]]
-      availList
+        // to do: handle case where "menu" blob is not in ars i.e. index out of bound
+        // to do: double check that 6 is the way to do it i.e. other blobs not removed
+        val availList = (obj \ "resolveAvailabilityResponse").\("availabilityGroups")(menuLocInArs).
+          \("availabilities").as[List[String]]
+        availList
+      }
     }
   }
 
   implicit class tagConversion(availTag: String) {
-
     val timeout: Int = 5000
     val linearURL = "http://ccpmer-po-v003-p.po.ccp.cable.comcast.com:9003/linearDataService/data/Location?" +
       "schema=1.6.0&form=cjson&pretty=true&byId="
@@ -55,6 +58,7 @@ object ArsUtils {
 
     }
 
+    // formats JSON
     case class Location(city: String, lat: Double, long: Double)
     implicit val locationWrites = new Writes[Location] {
       def writes(location:Location) = Json.obj(
@@ -63,6 +67,7 @@ object ArsUtils {
         "lng" -> location.long
       )
     }
+
     @throws(classOf[java.io.IOException])
     @throws(classOf[java.net.SocketTimeoutException])
     def toLocation: JsValue = {
@@ -78,7 +83,6 @@ object ArsUtils {
 
       val loc = Location(path.\("city").as[String], path.\("latitude").as[Double],
         path.\("longitude").as[Double])
-
       Json.toJson(loc)
     }
   }

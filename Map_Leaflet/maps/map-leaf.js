@@ -39,25 +39,16 @@ map.addLayer( markerClusters );
 var connection = new WebSocket('ws://localhost:8080/getInfo');
 
 connection.onopen = function () {
-  console.log("connection established"); // Works!
-  //connection.sendMessage();
+  console.log("connection established");
 };
 
-// connection.sendMessage = function() {
-//   var message = {"test": "hello", "name": "stephanie"};
-//   connection.send(JSON.stringify(message));
-// };
 
 connection.onmessage = function(e) {
-  //var parse = JSON.parse(e.data);
   console.log(e);
-  // addDynamicMarker(parse);
+  if (e.data) {
+    addDynamicMarker(JSON.parse(e.data));
+  }
 };
 
-
-// var markerClusters = L.markerClusterGroup();
-// for ( var i = 0; i < markers.length; ++i ) {
-//   addDynamicMarker(i);
-// }
 
 // map.addLayer( markerClusters );

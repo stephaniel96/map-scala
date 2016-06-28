@@ -4,7 +4,7 @@
 		module="conversion$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160628102315"
+		publication="20160628145331"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
