@@ -16,18 +16,14 @@ object ArsUtils {
 
   // get list of tags
   implicit class getTag(jsonString: String) {
-    val menuLocInArs = 6
     def arsToTag(): List[String] = {
       // if statement necessary to check in case getArs produced empty string
       if (jsonString.isEmpty()) List()
       else {
         val obj = Json.parse(jsonString).as[JsObject]
-
-        // to do: handle case where "menu" blob is not in ars i.e. index out of bound
-        // to do: double check that 6 is the way to do it i.e. other blobs not removed
-        val availList = (obj \ "resolveAvailabilityResponse").\("availabilityGroups")(menuLocInArs).
-          \("availabilities").as[List[String]]
-        availList
+        val availList = (obj \ "resolveAvailabilityResponse").\("availabilityGroups").as[JsArray]
+        // assumes menu availability is always last
+        availList(availList.value.size - 1).\("availabilities").as[List[String]]
       }
     }
   }
@@ -86,6 +82,4 @@ object ArsUtils {
       Json.toJson(loc)
     }
   }
-
-
 }

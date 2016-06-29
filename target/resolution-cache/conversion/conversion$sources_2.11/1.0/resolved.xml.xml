@@ -4,7 +4,7 @@
 		module="conversion$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160628145332"
+		publication="20160629101622"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
