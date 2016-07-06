@@ -1,43 +1,63 @@
 package conversion
 
-
+import ArsUtils._
 import akka.actor._
 import akka.http.scaladsl._
+import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.model.ws.TextMessage
-// streaming tools
 import akka.stream._
 import akka.stream.scaladsl._
 
 import scala.concurrent.duration._
 import scala.concurrent.Await
-import scala.io.StdIn
-import ArsUtils._
+import java.net.URLDecoder
+
 
 object Server {
 
-  def getData(): String = {
-    val line =
-      StdIn.readLine().takeWhile(_ != null)
-        .toArs.getOrElse("")
-        .arsToTag()
-        .map(_.takeRight(19))
-        .flatMap(_.toLinear)
-        .map(_.toLocation)
-      .mkString
-    line
+
+  def getData(str: String): TextMessage = {
+      val line =
+        str.toArs.getOrElse("")
+          .arsToTag()
+          .map(_.takeRight(19))
+          .flatMap(_.toLinear)
+          .map(_.toLocation)
+          .mkString
+      TextMessage(line)
   }
 
   def main(args: Array[String]): Unit = {
+
     implicit val system = ActorSystem()
     implicit val materializer = ActorMaterializer()
 
-    //minimal server will accept Get requests and respond with message
+    // outActor can be used to send messages to client(s)
+    val (outActor, publisher) = Source.actorRef[TextMessage](500, OverflowStrategy.dropNew)
+      .toMat(Sink.asPublisher(true))(Keep.both).run()
+
+    val source = Source.fromPublisher(publisher)
+
+      val handler: HttpRequest => HttpResponse = {
+      HttpRequest => {
+        val uri = HttpRequest.uri.toString()
+        val info = getData(URLDecoder.decode(uri, "UTF-8"))
+        // send to the actorref
+        outActor ! info
+        HttpResponse(200)
+      }
+    }
+
     val route = get {
       path("getInfo") {
-        val src = Source.fromIterator(() => Iterator.continually(getData()).map(i => TextMessage(i)))
-        extractUpgradeToWebSocket { upgrade => complete(upgrade.handleMessagesWithSinkSource(Sink.ignore, src)) }
+        extractUpgradeToWebSocket {
+          upgrade => complete(upgrade.handleMessagesWithSinkSource(Sink.ignore, source)) }
       }
+
+    } ~
+    pathPrefix("rex") {
+        handleWith(handler)
     }
 
     val interface = "localhost"
