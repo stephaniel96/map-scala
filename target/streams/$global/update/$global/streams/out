@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for conversion#conversion_2.11;1.0 [compile]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67958ce9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d07a5ff
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -316,6 +316,10 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-http-core_2.11;2.4.7->com.typesafe.akka#akka-parsing_2.11;2.4.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-http-core_2.11;2.4.7->com.typesafe.akka#akka-parsing_2.11;2.4.7 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.7 [compile->master]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->compile]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-http-experimental_2.11;2.4.7 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-http-experimental_2.11;2.4.7 {compile=[default(compile)]}
@@ -334,10 +338,6 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.4.7->com.typesafe.akka#akka-http-core_2.11;2.4.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.4.7->com.typesafe.akka#akka-http-core_2.11;2.4.7 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->master]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->default(compile)]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->runtime]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->compile]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for conversion#conversion_2.11;1.0 [runtime]
 [debug] == resolving dependencies for conversion#conversion_2.11;1.0 [compile]
@@ -530,6 +530,10 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.11;2.4.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.11;2.4.7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.7 [compile->master]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->compile]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->default(compile)]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->compile]
@@ -542,10 +546,6 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.4.7->com.typesafe.akka#akka-http-core_2.11;2.4.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.4.7->com.typesafe.akka#akka-http-core_2.11;2.4.7 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->master]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->default(compile)]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->runtime]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->compile]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for conversion#conversion_2.11;1.0 [test]
 [debug] == resolving dependencies for conversion#conversion_2.11;1.0 [runtime]
@@ -739,6 +739,10 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.11;2.4.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.11;2.4.7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.7 [compile->master]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->compile]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->default(compile)]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->compile]
@@ -751,10 +755,6 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.4.7->com.typesafe.akka#akka-http-core_2.11;2.4.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.4.7->com.typesafe.akka#akka-http-core_2.11;2.4.7 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->master]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->default(compile)]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->runtime]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->compile]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for conversion#conversion_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -951,6 +951,10 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.11;2.4.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.11;2.4.7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.7 [compile->master]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->compile]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->default(compile)]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->compile]
@@ -963,10 +967,6 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.4.7->com.typesafe.akka#akka-http-core_2.11;2.4.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.4.7->com.typesafe.akka#akka-http-core_2.11;2.4.7 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->master]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->default(compile)]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->runtime]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->compile]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies for conversion#conversion_2.11;1.0 [optional]
 [debug] == resolving dependencies for conversion#conversion_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -1162,6 +1162,10 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.11;2.4.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.11;2.4.7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.7 [compile->master]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->compile]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->default(compile)]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->compile]
@@ -1174,10 +1178,6 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.4.7->com.typesafe.akka#akka-http-core_2.11;2.4.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.4.7->com.typesafe.akka#akka-http-core_2.11;2.4.7 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->master]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->default(compile)]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->runtime]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->compile]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies for conversion#conversion_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for conversion#conversion_2.11;1.0 [test-internal]
@@ -1373,6 +1373,10 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.11;2.4.7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-parsing_2.11;2.4.7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.7 [compile->master]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->default(compile)]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->runtime]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->compile]
+[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->default(compile)]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->runtime]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->compile]
@@ -1385,10 +1389,6 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.4.7->com.typesafe.akka#akka-http-core_2.11;2.4.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-http-experimental_2.11;2.4.7->com.typesafe.akka#akka-http-core_2.11;2.4.7 [runtime->compile]
 [debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->master]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->default(compile)]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->runtime]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->compile]
-[debug] == resolving dependencies conversion#conversion_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies for conversion#conversion_2.11;1.0 [optional]
 [debug] == resolving dependencies for conversion#conversion_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'plugin'
@@ -1478,8 +1478,8 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.11;2.3.4!play-json_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.11;2.4.7!akka-http-core_2.11.jar
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-experimental_2.11;2.4.7!akka-http-experimental_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.11;2.4.7!akka-stream_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-experimental_2.11;2.4.7!akka-http-experimental_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-iteratees_2.11;2.3.4!play-iteratees_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.11;2.3.4!play-functional_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-datacommons_2.11;2.3.4!play-datacommons_2.11.jar
@@ -1502,7 +1502,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 620ms :: artifacts dl 12ms
+[debug] :: resolution report :: resolve 226ms :: artifacts dl 9ms
 [debug] 	report for conversion#conversion_2.11;1.0 compile produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion_2.11-compile.xml
 [debug] 	report for conversion#conversion_2.11;1.0 runtime produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion_2.11-runtime.xml
 [debug] 	report for conversion#conversion_2.11;1.0 test produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion_2.11-test.xml
@@ -1516,5 +1516,5 @@
 [debug] 	report for conversion#conversion_2.11;1.0 docs produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion_2.11-docs.xml
 [debug] 	report for conversion#conversion_2.11;1.0 pom produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion_2.11-pom.xml
 [debug] 	report for conversion#conversion_2.11;1.0 scala-tool produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion_2.11-scala-tool.xml
-[debug] 	resolve done (620ms resolve - 12ms download)
+[debug] 	resolve done (226ms resolve - 9ms download)
 [info] Done updating.

@@ -40,13 +40,13 @@ object Server {
     val source = Source.fromPublisher(publisher)
 
       val handler: HttpRequest => HttpResponse = {
-      HttpRequest => {
+      HttpRequest =>
         val uri = HttpRequest.uri.toString()
         val info = getData(URLDecoder.decode(uri, "UTF-8"))
-        // send to the actorref
+        // send to the actor
         outActor ! info
         HttpResponse(200)
-      }
+
     }
 
     val route = get {
@@ -54,7 +54,6 @@ object Server {
         extractUpgradeToWebSocket {
           upgrade => complete(upgrade.handleMessagesWithSinkSource(Sink.ignore, source)) }
       }
-
     } ~
     pathPrefix("rex") {
         handleWith(handler)

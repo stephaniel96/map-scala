@@ -4,7 +4,7 @@
 		module="conversion_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160630151651"
+		publication="20160712100729"
 	>
 		<description>
 		conversion
@@ -36,7 +36,7 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-json_2.11" rev="2.3.4" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-http-core_2.11" rev="2.4.7" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.akka" name="akka-http-experimental_2.11" rev="2.4.7" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-stream_2.11" rev="2.4.7" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http-experimental_2.11" rev="2.4.7" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

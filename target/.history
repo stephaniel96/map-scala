@@ -3,3 +3,4 @@ run | markers.json
 run > markers.json
 run #> markers.json
 run
+universal:packageZipTarball
