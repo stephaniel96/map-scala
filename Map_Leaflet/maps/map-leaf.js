@@ -43,3 +43,8 @@ connection.onmessage = function(e) {
     addDynamicMarker(JSON.parse(e.data));
   }
 };
+
+window.onbeforeunload = function() {
+    websocket.onclose = function () {}; // disable onclose handler first
+    websocket.close()
+};

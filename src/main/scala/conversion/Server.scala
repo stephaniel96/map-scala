@@ -13,6 +13,8 @@ import scala.concurrent.duration._
 import scala.concurrent.Await
 import java.net.URLDecoder
 
+import org.reactivestreams.{Subscriber, Subscription}
+
 
 object Server {
 
@@ -37,7 +39,16 @@ object Server {
     val (outActor, publisher) = Source.actorRef[TextMessage](500, OverflowStrategy.dropNew)
       .toMat(Sink.asPublisher(true))(Keep.both).run()
 
+    // dummy subscriber: hacky fix to prevent publisher from shutting down
     val source = Source.fromPublisher(publisher)
+
+    // dummy subscriber: hacky fix to prevent publisher from shutting down
+    publisher.subscribe(new Subscriber[TextMessage] {
+      def onError(t: Throwable) = println(s"Error: $t")
+      def onSubscribe(s: Subscription) = s.request(Long.MaxValue)
+      def onComplete() = println(s"Complete")
+      def onNext(t: TextMessage) = {}
+    })
 
       val handler: HttpRequest => HttpResponse = {
       HttpRequest =>
@@ -59,13 +70,12 @@ object Server {
         handleWith(handler)
     }
 
-    val interface = "localhost"
+    val interface = "0.0.0.0"
     val port = 8080
     // Wait for Actor to "complete" the Future
     val binding = Await.result(Http().bindAndHandle(route, interface, port), 3.seconds)
 
-    println("Started server, press enter to kill")
-    //StdIn.readLine()
-    //system.terminate()
+    println("Started server")
+
   }
 }

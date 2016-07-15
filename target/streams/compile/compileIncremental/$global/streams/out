@@ -1,52 +1,28 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
-[0m[[0mdebug[0m] [0m	removed:Set(/home/sliu203/Scala/map/src/main/scala/conversion/MapApplication.scala)[0m
-[0m[[0mdebug[0m] [0m	added: Set(/home/sliu203/Scala/map/src/main/scala/conversion/Server.scala)[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/home/sliu203/Scala/map/src/main/scala/conversion/ArsUtils.scala)[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set(/home/sliu203/Scala/map/target/scala-2.11/classes/conversion/ArsUtils$tagConversion.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/MapApplication$$anonfun$main$1.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/ArsUtils$tagConversion$Location.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/MapApplication$$anonfun$main$2.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/MapApplication$$anonfun$main$8.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/MapApplication$$anonfun$main$3.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/ArsUtils$.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/ArsUtils$tagConversion$$anon$1.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/MapApplication$$anonfun$main$6.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/MapApplication$.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/ArsUtils$getJson.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/ArsUtils$tagConversion$Location$.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/MapApplication$$anonfun$main$5.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/ArsUtils.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/MapApplication$$anonfun$main$7.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/MapApplication.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/MapApplication$$anonfun$main$4.class, /home/sliu203/Scala/map/target/scala-2.11/classes/conversion/ArsUtils$getArs.class)[0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/home/sliu203/Scala/map/src/main/scala/conversion/Server.scala)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/sliu203/Scala/map/src/main/scala/conversion/MapApplication.scala, /home/sliu203/Scala/map/src/main/scala/conversion/Server.scala, /home/sliu203/Scala/map/src/main/scala/conversion/ArsUtils.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/sliu203/Scala/map/src/main/scala/conversion/Server.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set(/home/sliu203/Scala/map/src/main/scala/conversion/ArsUtils.scala, /home/sliu203/Scala/map/src/main/scala/conversion/MapApplication.scala)[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/sliu203/Scala/map/src/main/scala/conversion/MapApplication.scala, /home/sliu203/Scala/map/src/main/scala/conversion/Server.scala, /home/sliu203/Scala/map/src/main/scala/conversion/ArsUtils.scala)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 2 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /home/sliu203/Scala/map/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/sliu203/Scala/map/src/main/scala/conversion/Server.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/sliu203/Scala/map/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 3a007e59, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 6f72e415, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/sliu203/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/home/sliu203/Scala/map/target/scala-2.11/classes:/home/sliu203/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.3.4.jar:/home/sliu203/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.3.4.jar:/home/sliu203/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/sliu203/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.3.4.jar:/home/sliu203/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.3.4.jar:/home/sliu203/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar:/home/sliu203/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.6.jar:/home/sliu203/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.3.2.jar:/home/sliu203/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.3.2.jar:/home/sliu203/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.3.2.jar:/home/sliu203/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.1.jar:/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/jars/akka-http-core_2.11-2.4.7.jar:/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.7.jar:/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.7.jar:/home/sliu203/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/sliu203/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar:/home/sliu203/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/sliu203/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/sliu203/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/sliu203/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/jars/akka-parsing_2.11-2.4.7.jar:/home/sliu203/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/jars/akka-http-experimental_2.11-2.4.7.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 3.941664829 s[0m
-[0m[[0mdebug[0m] [0mInvalidating /home/sliu203/Scala/map/src/main/scala/conversion/Server.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/sliu203/Scala/map/src/main/scala/conversion/Server.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/sliu203/Scala/map/src/main/scala/conversion/Server.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/sliu203/Scala/map/src/main/scala/conversion/Server.scala)[0m
-[0m[[0mdebug[0m] [0mThe /home/sliu203/Scala/map/src/main/scala/conversion/Server.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, Server, equals, asInstanceOf, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, getData, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mInvalidating /home/sliu203/Scala/map/src/main/scala/conversion/ArsUtils.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/sliu203/Scala/map/src/main/scala/conversion/ArsUtils.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/sliu203/Scala/map/src/main/scala/conversion/ArsUtils.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/sliu203/Scala/map/src/main/scala/conversion/ArsUtils.scala)[0m
-[0m[[0mdebug[0m] [0mThe /home/sliu203/Scala/map/src/main/scala/conversion/ArsUtils.scala source file has the following implicit definitions changed:[0m
-[0m[[0mdebug[0m] [0m	getTag, getJson.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following member ref dependencies of /home/sliu203/Scala/map/src/main/scala/conversion/ArsUtils.scala are invalidated:[0m
-[0m[[0mdebug[0m] [0m	/home/sliu203/Scala/map/src/main/scala/conversion/Server.scala[0m
-[0m[[0mdebug[0m] [0mInvalidating /home/sliu203/Scala/map/src/main/scala/conversion/MapApplication.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/sliu203/Scala/map/src/main/scala/conversion/MapApplication.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/sliu203/Scala/map/src/main/scala/conversion/MapApplication.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/sliu203/Scala/map/src/main/scala/conversion/MapApplication.scala)[0m
-[0m[[0mdebug[0m] [0mThe /home/sliu203/Scala/map/src/main/scala/conversion/MapApplication.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, MapApplication, ne, eq, ##, finalize, hashCode.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.189718926 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

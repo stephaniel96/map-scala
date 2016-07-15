@@ -1,1 +1,9 @@
-[0m[[0mdebug[0m] [0mJar uptodate: /home/sliu203/Scala/map/target/scala-2.11/conversion_2.11-1.0-sources.jar[0m
+[0m[[0minfo[0m] [0mPackaging /home/sliu203/Scala/map/target/scala-2.11/conversion_2.11-1.0-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  /home/sliu203/Scala/map/src/main/resources/application.conf[0m
+[0m[[0mdebug[0m] [0m	conversion/Server.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/sliu203/Scala/map/src/main/scala/conversion/Server.scala[0m
+[0m[[0mdebug[0m] [0m	conversion/ArsUtils.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/sliu203/Scala/map/src/main/scala/conversion/ArsUtils.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
