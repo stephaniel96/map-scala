@@ -3899,9 +3899,9 @@
 [debug] 	[NOT REQUIRED] com.google.inject#guice;3.0!guice.jar
 [debug] 	[NOT REQUIRED] org.sonatype.sisu.inject#cglib;2.2.1-v20090111!cglib.jar
 [debug] 	[NOT REQUIRED] asm#asm;3.1!asm.jar
-[debug] :: resolution report :: resolve 1053ms :: artifacts dl 19ms
+[debug] :: resolution report :: resolve 829ms :: artifacts dl 23ms
 [debug] 	report for conversion#conversion$sbt_2.11;1.0 default produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sbt_2.11-default.xml
-[debug] 	resolve done (1053ms resolve - 19ms download)
+[debug] 	resolve done (829ms resolve - 23ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: conversion#conversion$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -4992,6 +4992,6 @@
 [debug] 	[NOT REQUIRED] org.apache.ant#ant;1.9.3!ant.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.ant#ant-launcher;1.9.3!ant-launcher.jar(src)
 [debug] 	[NOT REQUIRED] org.bouncycastle#bcpg-jdk15on;1.51!bcpg-jdk15on.jar(src)
-[debug] :: resolution report :: resolve 162ms :: artifacts dl 24ms
+[debug] :: resolution report :: resolve 211ms :: artifacts dl 46ms
 [debug] 	report for conversion#conversion$sources_2.11;1.0 default produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sources_2.11-default.xml
-[debug] 	resolve done (162ms resolve - 24ms download)
+[debug] 	resolve done (211ms resolve - 46ms download)

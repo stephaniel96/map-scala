@@ -4,7 +4,7 @@
 		module="map-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160715101101"
+		publication="20160727104826"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

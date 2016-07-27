@@ -15,19 +15,18 @@ import java.net.URLDecoder
 
 import org.reactivestreams.{Subscriber, Subscription}
 
-
 object Server {
 
 
   def getData(str: String): TextMessage = {
-      val line =
-        str.toArs.getOrElse("")
-          .arsToTag()
-          .map(_.takeRight(19))
-          .flatMap(_.toLinear)
-          .map(_.toLocation)
-          .mkString
-      TextMessage(line)
+    val line =
+      str.toArs.getOrElse("")
+        .arsToTag()
+        .map(_.takeRight(19))
+        .flatMap(_.toLinear)
+        .map(_.toLocation)
+        .mkString
+    TextMessage(line)
   }
 
   def main(args: Array[String]): Unit = {
@@ -50,7 +49,7 @@ object Server {
       def onNext(t: TextMessage) = {}
     })
 
-      val handler: HttpRequest => HttpResponse = {
+    val handler: HttpRequest => HttpResponse = {
       HttpRequest =>
         val uri = HttpRequest.uri.toString()
         val info = getData(URLDecoder.decode(uri, "UTF-8"))
@@ -61,16 +60,23 @@ object Server {
     }
 
     val route = get {
-      path("getInfo") {
-        extractUpgradeToWebSocket {
-          upgrade => complete(upgrade.handleMessagesWithSinkSource(Sink.ignore, source)) }
-      }
+      path("index") {
+        getFromResource("Map_Leaflet/index.html")
+      } ~
+        path("maps/map-leaf.js")(getFromResource("maps/map-leaf.js"))
     } ~
-    pathPrefix("rex") {
-        handleWith(handler)
-    }
+        path("getInfo") {
+        extractUpgradeToWebSocket {
+          upgrade => complete(upgrade.handleMessagesWithSinkSource(Sink.ignore, source))
+        }
+      } ~
+        pathPrefix("rex") {
+          handleWith(handler)
+        } ~
+      getFromResourceDirectory("Map_Leaflet")
 
-    val interface = "0.0.0.0"
+
+    val interface = "localhost"
     val port = 8080
     // Wait for Actor to "complete" the Future
     val binding = Await.result(Http().bindAndHandle(route, interface, port), 3.seconds)

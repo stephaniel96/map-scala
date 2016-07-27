@@ -8,7 +8,7 @@
 [debug] == resolving dependencies for conversion#conversion$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72b76b75
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63e435c0
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -17,7 +17,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7519d003
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@432e44fb
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.11;2.3.4
 [debug] 	found com.typesafe.play#play-json_2.11;2.3.4 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.3.4 [compile->runtime]
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.3.4 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40217ede
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e8a61d4
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.3.4
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.3.4 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.3.4 [compile->runtime]
@@ -33,7 +33,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.3.4 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f644dea
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7820e7c9
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
@@ -41,7 +41,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fd58717
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@791a896e
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.11;2.3.4
 [debug] 	found com.typesafe.play#play-functional_2.11;2.3.4 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->runtime]
@@ -49,7 +49,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.3.4 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76d4608f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c35fe5f
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.11;2.3.4
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.3.4 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.3.4 [compile->runtime]
@@ -57,7 +57,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.3.4 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->joda-time#joda-time;2.3 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fbf3a8b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b77052c
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.3
 [debug] 	found joda-time#joda-time;2.3 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->joda-time#joda-time;2.3 [compile->runtime]
@@ -65,7 +65,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->joda-time#joda-time;2.3 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.joda#joda-convert;1.6 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72581cfb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@699c594e
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.6
 [debug] 	found org.joda#joda-convert;1.6 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.joda#joda-convert;1.6 [compile->runtime]
@@ -73,7 +73,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.joda#joda-convert;1.6 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@777e0c9d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21dac471
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.3.2 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->runtime]
@@ -81,7 +81,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ce35fef
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@247b09d0
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.3.2 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->runtime]
@@ -89,7 +89,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42fe6e6b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e94f8a2
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.3.2 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->runtime]
@@ -97,7 +97,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b4d6182
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@efd1057
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.1
 [debug] 	found org.scala-lang#scala-reflect;2.11.1 in sbt-chain
 [debug] 	[2.11.1] org.scala-lang#scala-reflect;2.11.1
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.7 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-http-core_2.11;2.4.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@730e1f36
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cc1717b
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-core_2.11;2.4.7
 [debug] 	found com.typesafe.akka#akka-http-core_2.11;2.4.7 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.7 [compile->runtime]
@@ -114,7 +114,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-core_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-stream_2.11;2.4.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3490fa19
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d297850
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-stream_2.11;2.4.7
 [debug] 	found com.typesafe.akka#akka-stream_2.11;2.4.7 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->runtime]
@@ -122,7 +122,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-stream_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.7 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60e0af09
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31b24762
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.7
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.7 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.7 [compile->runtime]
@@ -130,7 +130,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@196bd4a1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@196735a6
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
 [debug] 	found com.typesafe#config;1.3.0 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
@@ -138,7 +138,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@389913d7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@716ac442
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0
 [debug] 	found org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime]
@@ -146,7 +146,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#ssl-config-akka_2.11;0.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10f9f1f5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f9b1a70
 [debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-akka_2.11;0.2.1
 [debug] 	found com.typesafe#ssl-config-akka_2.11;0.2.1 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->runtime]
@@ -154,7 +154,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.2.1 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#ssl-config-core_2.11;0.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e28c597
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a672573
 [debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-core_2.11;0.2.1
 [debug] 	found com.typesafe#ssl-config-core_2.11;0.2.1 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->runtime]
@@ -162,7 +162,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.2.1 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@116a1219
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c49cbaa
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
@@ -170,7 +170,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
 [info] Resolving org.reactivestreams#reactive-streams;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c5de31a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37a451ae
 [debug] sbt-chain: module revision found in cache: org.reactivestreams#reactive-streams;1.0.0
 [debug] 	found org.reactivestreams#reactive-streams;1.0.0 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
@@ -178,7 +178,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.7 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-parsing_2.11;2.4.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a51f58e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ede46f2
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-parsing_2.11;2.4.7
 [debug] 	found com.typesafe.akka#akka-parsing_2.11;2.4.7 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.7 [compile->runtime]
@@ -186,7 +186,7 @@
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-parsing_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-http-experimental_2.11;2.4.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@717d4a56
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2277f1dc
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-experimental_2.11;2.4.7
 [debug] 	found com.typesafe.akka#akka-http-experimental_2.11;2.4.7 in sbt-chain
 [debug] == resolving dependencies conversion#conversion$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.4.7 [compile->runtime]
@@ -1611,7 +1611,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 188ms :: artifacts dl 12ms
+[debug] :: resolution report :: resolve 300ms :: artifacts dl 17ms
 [debug] 	report for conversion#conversion$sources_2.11;1.0 compile produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sources_2.11-compile.xml
 [debug] 	report for conversion#conversion$sources_2.11;1.0 runtime produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sources_2.11-runtime.xml
 [debug] 	report for conversion#conversion$sources_2.11;1.0 test produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sources_2.11-test.xml
@@ -1625,4 +1625,4 @@
 [debug] 	report for conversion#conversion$sources_2.11;1.0 docs produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sources_2.11-docs.xml
 [debug] 	report for conversion#conversion$sources_2.11;1.0 pom produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sources_2.11-pom.xml
 [debug] 	report for conversion#conversion$sources_2.11;1.0 scala-tool produced in /home/sliu203/Scala/map/target/resolution-cache/reports/conversion-conversion$sources_2.11-scala-tool.xml
-[debug] 	resolve done (188ms resolve - 12ms download)
+[debug] 	resolve done (300ms resolve - 17ms download)

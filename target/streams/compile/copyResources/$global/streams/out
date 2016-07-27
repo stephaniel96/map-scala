@@ -1,2 +1,9 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/sliu203/Scala/map/src/main/resources/Map_Leaflet,/home/sliu203/Scala/map/target/scala-2.11/classes/Map_Leaflet)[0m
 [0m[[0mdebug[0m] [0m	(/home/sliu203/Scala/map/src/main/resources/application.conf,/home/sliu203/Scala/map/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/sliu203/Scala/map/src/main/resources/Map_Leaflet/index.html,/home/sliu203/Scala/map/target/scala-2.11/classes/Map_Leaflet/index.html)[0m
+[0m[[0mdebug[0m] [0m	(/home/sliu203/Scala/map/src/main/resources/Map_Leaflet/maps,/home/sliu203/Scala/map/target/scala-2.11/classes/Map_Leaflet/maps)[0m
+[0m[[0mdebug[0m] [0m	(/home/sliu203/Scala/map/src/main/resources/Map_Leaflet/maps/map-leaf.js,/home/sliu203/Scala/map/target/scala-2.11/classes/Map_Leaflet/maps/map-leaf.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/sliu203/Scala/map/src/main/resources/Map_Leaflet/maps/images,/home/sliu203/Scala/map/target/scala-2.11/classes/Map_Leaflet/maps/images)[0m
+[0m[[0mdebug[0m] [0m	(/home/sliu203/Scala/map/src/main/resources/Map_Leaflet/maps/images/pin48.png,/home/sliu203/Scala/map/target/scala-2.11/classes/Map_Leaflet/maps/images/pin48.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/sliu203/Scala/map/src/main/resources/Map_Leaflet/maps/images/pin24.png,/home/sliu203/Scala/map/target/scala-2.11/classes/Map_Leaflet/maps/images/pin24.png)[0m
